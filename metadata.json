@@ -1,0 +1,6 @@
+{
+  "name": "Monthly Expense & Budget Tracker",
+  "description": "Track monthly expenses and category budgets with visual progress bars in SAR, bulk serial entry for 10-15 items, daily logging, and backend data inspector.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Google Sans', 'Roboto', system-ui, -apple-system, sans-serif;
+    color: #1f1f1f;
+    background-color: #f8fafd;
+  }
+}
+
+@layer utilities {
+  .google-font-heading {
+    font-family: 'Plus Jakarta Sans', 'Google Sans', 'Roboto', sans-serif;
+    letter-spacing: -0.01em;
+  }
+  .google-font-mono {
+    font-family: 'Roboto Mono', 'SFMono-Regular', Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* Material 3 Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f3f4;
+}
+::-webkit-scrollbar-thumb {
+  background: #dadce0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bdc1c6;
+}
